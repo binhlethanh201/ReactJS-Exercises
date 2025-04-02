@@ -1,10 +1,10 @@
 var array = [1, 2, 4, 6, 8, 12, 22, 67, 60, 99, 30, 2, 45, 56, 12, 60, 31];
 
-// Tính tổng các phần tử trong mảng số nguyên.
+// Tính tổng các phần tử trong mảng số nguyên
 const sum = array.reduce((acc, current) => acc + current, 0);
 console.log(`Tong: ${sum}`);
 
-//Tìm phần tử lớn nhất và nhỏ nhất trong mảng.
+//Tìm phần tử lớn nhất và nhỏ nhất trong mảng
 let min = array[0];
 let max = array[0];
 for (let i = 0; i < array.length; i++) {
@@ -20,7 +20,7 @@ for (let i = 0; i < array.length; i++) {
 console.log(`Min: ${min}`);
 console.log(`Max: ${max}`);
 
-//Đếm số phần tử chẵn và lẻ trong mảng.
+//Đếm số phần tử chẵn và lẻ trong mảng
 let countEven = 0;
 let countOdd = 0;
 for (let i = 0; i < array.length; i++) {
