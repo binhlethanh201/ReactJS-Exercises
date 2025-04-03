@@ -31,11 +31,10 @@ for (let i = 0; i < array.length; i++) {
     countOdd++;
   }
 }
-
 console.log(`Even number: ${countEven}`);
 console.log(`Odd number: ${countOdd}`);
 
-//Tạo một mảng mới chỉ chứa các số chẵn từ mảng ban đầu.
+//Tạo một mảng mới chỉ chứa các số chẵn từ mảng ban đầu
 let oddArr = [];
 for (let i = 0; i < array.length; i++) {
   let num = array[i];
@@ -45,7 +44,7 @@ for (let i = 0; i < array.length; i++) {
 }
 console.log(`Odd array: ${oddArr}`);
 
-//Kiểm tra xem một phần tử có tồn tại trong mảng hay không.
+//Kiểm tra xem một phần tử có tồn tại trong mảng hay không
 let check = 12;
 if (array.includes(check)) {
   console.log(`Co phan tu ${check} trong mang`);
@@ -53,15 +52,13 @@ if (array.includes(check)) {
   console.log(`Khong co phan tu ${check} trong mang`);
 }
 
-//Sắp xếp mảng theo thứ tự tăng dần.
-
-// const sortArr = array.sort((x,y) => x-y);
-// console.log(`Ascending order of array: ${sortArr}`);
+//Sắp xếp mảng theo thứ tự tăng dần
+const sortArr = array.sort((x,y) => x-y);
+console.log(`Ascending order of array: ${sortArr}`);
 
 //Đảo ngược thứ tự phần tử trong mảng.
-
-// const reverseArr = array.slice().reverse();
-// console.log(`Reverse array: ${reverseArr}`);
+const reverseArr = array.slice().reverse();
+console.log(`Reverse array: ${reverseArr}`);
 
 
 //
