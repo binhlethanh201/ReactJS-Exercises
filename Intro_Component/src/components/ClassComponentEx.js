@@ -36,6 +36,8 @@ class ClsComponentEx extends Component {
                         <div key={index}>
                             {newComponent}
                         </div>
+                                             <div>
+                        </div>
                     ))
                 }
             </div>
