@@ -40,6 +40,7 @@ class ClsComponent extends Component{
                 <h3>Count: {this.state.count}</h3>
                 <button onClick={this.incrementCount}>Increment</button>
                 <button onClick={this.decrementCount}>Decrement</button>
+                <div> </div>
             </>
         )
     }
