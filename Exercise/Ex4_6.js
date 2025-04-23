@@ -13,3 +13,6 @@ for(let i =0; i<array.length; i++){
 console.log(array1);
 
 //Tạo mảng mới bao gồm 2 mảng cũ
+
+
+//Lấy tất cả 
